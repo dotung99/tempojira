@@ -1,0 +1,39 @@
+.header {
+  font-size:30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px dotted #333;
+  text-align: center;
+}
+.bar-left {
+  background-color: #f7f7f7;
+}
+.external-drop-calendar {
+  border-right: 1px solid #ccc;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.external-drop-task {
+  color: #fff;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.external-drop-task-blank {
+  color: #999;
+  border-width: 2px;
+  border-style: dotted;
+}
+
+.demo-external-drag-drop.demo-wrapper,
+.demo-external-drag-drop .mbsc-grid,
+.demo-external-drag-drop .mbsc-row,
+.demo-external-drag-drop .external-drop-calendar {
+  height: 100%;
+}
